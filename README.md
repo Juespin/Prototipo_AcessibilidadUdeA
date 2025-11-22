@@ -7,7 +7,9 @@
 
 ## Uso rápido.
 Clonar el repositorio. A través de consola, instalar las dependencias y correr localmente el programa con los siguientes comandos:
+
 `npm install`
+
 `npm run dev`
 
 ## Mejora de accesibilidad web basada en WCAG 2.1 y Resolución MinTIC 1519 de 2020
