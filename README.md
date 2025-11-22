@@ -1,4 +1,4 @@
-# Prototipo Accesible -- Expedición de Certificados UdeA
+# Prototipo Accesible - Expedición de Certificados UdeA
 
 ### Diseñado por:
 - Elisabeth Gomez Cano.
@@ -9,7 +9,7 @@
 
 Este repositorio contiene un **prototipo accesible** desarrollado como
 parte del estudio *"Evaluación de la accesibilidad web en los canales de
-la Universidad de Antioquia"*.\
+la Universidad de Antioquia"*.
 El prototipo rediseña la sección de **expedición de certificados**,
 seleccionada por su alta utilidad y por las barreras de accesibilidad
 detectadas en el análisis con usuarios con discapacidad visual.
@@ -60,19 +60,19 @@ El prototipo aborda las barreras anteriores mediante:
 ### 1. Botones accesibles y semánticos
 
 -   Uso de etiquetas reales como `<button>` o `<a role="button">` con
-    texto visible y modificable.\
+    texto visible y modificable.
 -   Inclusión de atributos `aria-label` cuando es necesario.
 
 ### 2. Navegación completa por teclado
 
--   Todos los elementos clave pueden recibir foco.\
--   Orden lógico del foco.\
+-   Todos los elementos clave pueden recibir foco.
+-   Orden lógico del foco.
 -   Contenido textual completamente navegable sin mouse.
 
 ### 3. Compatibilidad con lectores de pantalla
 
 -   Estructura semántica: encabezados, regiones, roles y etiquetas
-    correctas.\
+    correctas.
 -   Se evita el uso de imágenes decorativas incorrectas o contenido
     incrustado como imagen.
 
@@ -81,9 +81,9 @@ El prototipo aborda las barreras anteriores mediante:
 Basados en herramientas recomendadas por la **Web Accessibility
 Initiative (WAI)**:
 
--   Lupa\
--   Alto contraste\
--   Cambio de brillo\
--   Ajuste de tamaño de fuente\
--   Regla de lectura\
+-   Lupa
+-   Alto contraste
+-   Cambio de brillo
+-   Ajuste de tamaño de fuente
+-   Regla de lectura
 -   Fuente amigable para dislexia
