@@ -1,0 +1,49 @@
+/* Estilos globales para accesibilidad */
+/* Carga OpenDyslexic desde CDN (formatos múltiples) */
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('https://cdn.jsdelivr.net/npm/open-dyslexic/woff/OpenDyslexic-Regular.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/npm/open-dyslexic/ttf/OpenDyslexic-Regular.ttf') format('truetype'),
+       url('https://cdn.jsdelivr.net/npm/open-dyslexic/svg/OpenDyslexic-Regular.svg#opendyslexicregular') format('svg');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'OpenDyslexic';
+  src: url('https://cdn.jsdelivr.net/npm/open-dyslexic/woff/OpenDyslexic-Bold.woff') format('woff'),
+       url('https://cdn.jsdelivr.net/npm/open-dyslexic/ttf/OpenDyslexic-Bold.ttf') format('truetype'),
+       url('https://cdn.jsdelivr.net/npm/open-dyslexic/svg/OpenDyslexic-Bold.svg#opendyslexicbold') format('svg');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --dyslexic-font-family: 'OpenDyslexic', 'Lexend', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+}
+
+.dyslexic-font body,
+.dyslexic-font p,
+.dyslexic-font label,
+.dyslexic-font a,
+.dyslexic-font li,
+.dyslexic-font span,
+.dyslexic-font button,
+.dyslexic-font input,
+.dyslexic-font textarea,
+.dyslexic-font h1,
+.dyslexic-font h2,
+.dyslexic-font h3,
+.dyslexic-font h4,
+.dyslexic-font h5,
+.dyslexic-font h6 {
+  /* Aplicar fuente disléxica cuando root tenga la clase `dyslexic-font`. Limitar a elementos textuales. */
+  font-family: var(--dyslexic-font-family) !important;
+  letter-spacing: 0.01em;
+}
+
+/* Transición pequeña para cambios de brillo */
+:root {
+  transition: filter 150ms ease;
+}
